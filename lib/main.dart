@@ -1,12 +1,9 @@
-import 'package:fitness_tracker_app/presentation/screens/home_screen/home_screen.dart';
+import 'presentation/screens/00_home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
-import 'presentation/screens/details_screen/details_screen.dart';
+import 'presentation/screens/01_details_screen.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
   runApp(const MyApp());
 }
 
@@ -19,13 +16,12 @@ class MyApp extends StatelessWidget {
       title: "Fitness Tracker",
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       routes: {
-        '/': (context) => HomeScreen(),
-        '/details_screen': (context) => DetailsScreen(),
+        '/': (context) => const HomeScreen(),
+        '/details_screen': (context) => const DetailsScreen(),
       },
-      initialRoute: '/details_screen',
+      initialRoute: '/',
     );
   }
 }

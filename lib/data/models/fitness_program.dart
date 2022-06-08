@@ -25,28 +25,28 @@ class FitnessProgram {
 
 final List<FitnessProgram> fitnessProgram = [
   FitnessProgram(
-    image: AssetImage('assets/images/cardio.jpg'),
+    image: const AssetImage('assets/images/cardio.jpg'),
     name: 'Cardio',
     calories: '220kCal',
     time: '20Min',
     type: ProgramType.cardio,
   ),
   FitnessProgram(
-    image: AssetImage('assets/images/gym.jpg'),
+    image: const AssetImage('assets/images/gym.jpg'),
     name: 'GYM',
     calories: '300kCal',
     time: '10Min',
     type: ProgramType.gym,
   ),
   FitnessProgram(
-    image: AssetImage('assets/images/lifting.jpg'),
+    image: const AssetImage('assets/images/lifting.jpg'),
     name: 'Lifting',
     calories: '350kCal',
     time: '30Min',
     type: ProgramType.lifting,
   ),
   FitnessProgram(
-    image: AssetImage('assets/images/yoga.jpg'),
+    image: const AssetImage('assets/images/yoga.jpg'),
     name: 'Yoga',
     calories: '100kCal',
     time: '50Min',
