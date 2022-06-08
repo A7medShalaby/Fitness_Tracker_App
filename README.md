@@ -1,4 +1,4 @@
-<h1 align="center">[Fitness_Tracker_App</h3>
+<h1 align="center">Fitness_Tracker_App</h3>
 
 ## 🔍 Overview:
 
